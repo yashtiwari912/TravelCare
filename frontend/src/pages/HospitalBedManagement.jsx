@@ -40,7 +40,10 @@ export default function HospitalBedManagement() {
                     key={bed.id}
                     className={`aspect-square p-0 flex items-center justify-center border ${bed.occupied ? "bg-gray-200" : "bg-white hover:bg-gray-100"
                       }`}
-                    onClick={() => toggleBedStatus(bed.id)}
+                    onClick={() => 
+                      {toggleBedStatus(bed.id)}
+                      
+                    }
                   >
                     <BedIcon occupied={bed.occupied} adjustable={bed.id % 2 === 0} />
                   </button>
