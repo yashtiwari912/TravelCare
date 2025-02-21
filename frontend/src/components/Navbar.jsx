@@ -33,7 +33,7 @@ const Navbar = () => {
           <hr className='border-none outline-none h-0.5 bg-[#F7952C] w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/diseases-itenary' >
-          <li className='py-1'>Disease Itenary</li>
+          <li className='py-1'>DISEASE ITINERARY</li>
           <hr className='border-none outline-none h-0.5 bg-[#F7952C] w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/about' >
