@@ -1,28 +1,32 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { diseases } from "../lib/diseasesItenaryData.js"
-import { DiseaseDetailsContext } from '../context/DiseaseDetails.jsx';
+import { diseaseTravelPlacesData } from "../lib/diseasesItenaryData.js"
+import { DiseaseTravelDetailsContext } from '../context/DiseaseDetails.jsx';
+import LocationSearch from "../components/Location-search";
 
 const DiseasesItenary = () => {
     const navigate = useNavigate();
-    const diseaseDetailsContext = useContext(DiseaseDetailsContext)
+    const { setDiseaseTravelDetails } = useContext(DiseaseTravelDetailsContext)
 
-    const handleRedirect = (disease) =>  {
+    const handleRedirect = (disease) => {
         // console.log(disease)
-        diseaseDetailsContext.setDiseaseDetails(disease)
+        setDiseaseTravelDetails(disease)
         navigate("/disease-details")
     }
 
     return (
-        <div className='w-full h-auto p-2 flex items-center justify-start' >
+        <div className='w-full h-auto p-2 flex flex-col items-center justify-start gap-4' >
+            <div>
+                <LocationSearch />
+            </div>
             <div className='w-full grid grid-cols-3 gap-4 ' >
                 {
-                    diseases.map((disease) => (
+                    diseaseTravelPlacesData.map((data) => (
                         <div className='flex items-center justify-center bg-white border border-grey rounded-md p-2 shadow-md cursor-pointer hover:bg-orange-400 hover:text-white hover:shadow-orange-200 hover:shadow-xl'
-                            key={disease.name}
-                            onClick={()=>handleRedirect(disease)}
+                            key={data.disease}
+                            onClick={() => handleRedirect(data)}
                         >
-                            {disease.name}
+                            {data.disease}
                         </div>
                     ))
                 }

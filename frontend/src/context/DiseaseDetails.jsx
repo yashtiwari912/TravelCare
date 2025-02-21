@@ -1,22 +1,28 @@
 import { createContext, useState } from "react";
 
-export const DiseaseDetailsContext = createContext({});
+export const DiseaseTravelDetailsContext = createContext({});
 
-export const DiseaseContextProvider = ({ children }) => {
-    const [diseaseDetails, setDiseaseDetails] = useState({
-        name: "",
-        precautions: [],
-        placesToGo: [],
-        placesToAvoid: [],
-        medicines: [],
-        symptoms: [],
-        foodsToEat: [],
-        foodsToAvoid: []
+export const DiseaseTravelContextProvider = ({ children }) => {
+    const [diseaseTravelDetails, setDiseaseTravelDetails] = useState({
+        disease: "",
+        description: "",
+        travelPlaces: [
+            {
+                name: "",
+                details: "",
+                image: "",
+            },
+            {
+                name: "",
+                details: "",
+                image: "",
+            },
+        ],
     },)
 
     return (
-        <DiseaseDetailsContext.Provider value={{ diseaseDetails, setDiseaseDetails }} >
+        <DiseaseTravelDetailsContext.Provider value={{ diseaseTravelDetails, setDiseaseTravelDetails }} >
             {children}
-        </DiseaseDetailsContext.Provider>
+        </DiseaseTravelDetailsContext.Provider>
     )
 }

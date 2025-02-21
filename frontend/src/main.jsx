@@ -6,17 +6,17 @@ import { BrowserRouter } from 'react-router-dom'
 import AppContextProvider from './context/AppContext.jsx'
 import SosButton from './components/SosButton.jsx'
 import { SearchContextProvider } from './context/SearchContext.jsx'
-import { DiseaseContextProvider } from './context/DiseaseDetails.jsx'
+import { DiseaseTravelContextProvider } from './context/DiseaseDetails.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <DiseaseContextProvider>
+    <DiseaseTravelContextProvider>
       <SearchContextProvider>
         <AppContextProvider>
           <App />
           <SosButton />
         </AppContextProvider>
       </SearchContextProvider>
-    </DiseaseContextProvider>
+    </DiseaseTravelContextProvider>
   </BrowserRouter>,
 )
