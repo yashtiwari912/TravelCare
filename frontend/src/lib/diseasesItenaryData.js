@@ -6,12 +6,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Gangtok, Sikkim",
         details: "Fresh mountain air and tranquil surroundings can help soothe symptoms.",
-        image: "https://example.com/images/gangtok.jpg",
+        image: "https://dzongholidays.com/wp-content/uploads/2022/06/Gangtok-870x555.jpeg",
       },
       {
         name: "Shillong, Meghalaya",
         details: "Cool, misty weather with clean air to provide comfort.",
-        image: "https://example.com/images/shillong.jpg",
+        image: "https://assamholidays.com/wp-content/uploads/2023/06/Umium-Shillong.jpg",
       },
     ],
   },
@@ -22,12 +22,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Darjeeling, West Bengal",
         details: "A serene hill station perfect for rest and recovery.",
-        image: "https://example.com/images/darjeeling.jpg",
+        image: "https://siliguritourism.com/wp-content/uploads/2024/01/Darjeeling-West-Bengal-1024x576.jpg",
       },
       {
         name: "Munnar, Kerala",
         details: "Lush green tea gardens and quiet surroundings for a peaceful recovery.",
-        image: "https://example.com/images/munnar.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UyKu9xcopKUzXaJVr3XjBGZH-lyXrJ8RGg&s",
       },
     ],
   },
@@ -38,12 +38,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Auroville, Tamil Nadu",
         details: "A sustainable township offering healthy meals and serene walks.",
-        image: "https://example.com/images/auroville.jpg",
+        image: "https://files.auroville.org/auroville-org/a05d8056-60d4-4bcf-b36d-4b03ce0ae81f.jpeg",
       },
       {
         name: "Jaipur, Rajasthan",
         details: "Cultural sites with light walking tours to stay active.",
-        image: "https://example.com/images/jaipur.jpg",
+        image: "https://m.economictimes.com/thumb/msid-70104165,width-1200,height-900,resizemode-4,imgsize-1445127/jaipur_gettyimages.jpg",
       },
     ],
   },
@@ -54,12 +54,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Rishikesh, Uttarakhand",
         details: "Known for yoga and meditation retreats that help reduce stress.",
-        image: "https://example.com/images/rishikesh.jpg",
+        image: "https://wandersky.in/wp-content/uploads/2023/03/laxman-jhula-rishikesh.jpg",
       },
       {
         name: "Alleppey, Kerala",
         details: "Calm backwaters offering a tranquil environment for relaxation.",
-        image: "https://example.com/images/alleppey.jpg",
+        image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36924366.jpg?k=cd327d5fc634e9eff122c4917c3600e0ab631a32bb71e62d1f45453cc7ebd76a&o=&hp=1",
       },
     ],
   },
@@ -70,12 +70,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Pahalgam, Jammu & Kashmir",
         details: "High-altitude location with clean and fresh air.",
-        image: "https://example.com/images/pahalgam.jpg",
+        image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/ec/dc/15/aru-city.jpg?w=1100&h=1100&s=1",
       },
       {
         name: "Mahabalipuram, Tamil Nadu",
         details: "Coastal town with moist ocean air that can help alleviate symptoms.",
-        image: "https://example.com/images/mahabalipuram.jpg",
+        image: "https://www.india.com/wp-content/uploads/2018/11/Mahabalipuram.jpg",
       },
     ],
   },
@@ -86,12 +86,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Leh, Ladakh",
         details: "High-altitude destination with minimal mosquito presence.",
-        image: "https://example.com/images/leh.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-iwX_NdWFLZhrV4hXfXXg9iEs9UISQPherg&s",
       },
       {
         name: "Pondicherry",
         details: "An urban area with well-maintained mosquito control systems.",
-        image: "https://example.com/images/pondicherry.jpg",
+        image: "https://www.agoda.com/wp-content/uploads/2024/02/Pondicherry-cover-1-1478x700.jpg",
       },
     ],
   },
@@ -102,12 +102,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Coorg, Karnataka",
         details: "Quiet coffee plantations offering solitude for recovery.",
-        image: "https://example.com/images/coorg.jpg",
+        image: "https://www.mangalurutaxi.com/uploads/image/top-travel-packages/honeymoon-places-in-south-india/coorg-karnataka.jpg",
       },
       {
         name: "Ooty, Tamil Nadu",
         details: "A peaceful hill station for a comfortable recovery.",
-        image: "https://example.com/images/ooty.jpg",
+        image: "https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/avalanche-hills-ooty-1656333416_e2680b8680086972e69d.webp",
       },
     ],
   },
@@ -118,12 +118,12 @@ export const diseaseTravelPlacesData = [
       {
         name: "Wayanad, Kerala",
         details: "A shaded, cool location perfect for avoiding migraine triggers.",
-        image: "https://example.com/images/wayanad.jpg",
+        image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/46/81/cd/grassroots-wayanad.jpg?w=700&h=-1&s=1",
       },
       {
         name: "Lonavala, Maharashtra",
         details: "A quiet hill station offering relaxation and scenic views.",
-        image: "https://example.com/images/lonavala.jpg",
+        image: "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/10/20205623/lonavala-1600x900.jpeg",
       },
     ],
   },
