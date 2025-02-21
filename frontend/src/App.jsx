@@ -16,6 +16,8 @@ import Verify from './pages/Verify'
 import HospitalBedManagement from './pages/HospitalBedManagement'
 import HospitalList from './pages/HospitalList'
 import SosButton from './components/SosButton'
+import DiseasesItenary from './pages/DiseasesItenary'
+import DiseaseDetails from './pages/DiseaseDetails'
 
 const App = () => {
   return (
@@ -36,6 +38,8 @@ const App = () => {
         <Route path='/verify' element={<Verify />} />
         <Route path='/hospital-beds' element={<HospitalBedManagement />} />
         <Route path='/hospital-list' element={<HospitalList />} />
+        <Route path='/diseases-itenary' element={<DiseasesItenary />} />
+        <Route path='/disease-details' element={<DiseaseDetails />} />
       </Routes>
       <Footer />
     </div>
