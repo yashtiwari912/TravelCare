@@ -18,6 +18,7 @@ import HospitalList from './pages/HospitalList'
 import SosButton from './components/SosButton'
 import DiseasesItenary from './pages/DiseasesItenary'
 import DiseaseDetails from './pages/DiseaseDetails'
+import Flowchart from './pages/Flowchart'
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path='/hospital-list' element={<HospitalList />} />
         <Route path='/diseases-itenary' element={<DiseasesItenary />} />
         <Route path='/disease-details' element={<DiseaseDetails />} />
+        <Route path='/flowchart' element={<Flowchart />} />
       </Routes>
       <Footer />
     </div>
