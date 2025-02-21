@@ -56,7 +56,9 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            : <button onClick={() => navigate('/diseases-itenary')} className='bg-[#F7952C] text-white px-8 py-3 rounded-full font-light hidden md:block'>START PLANNING</button>
+
+            :
+            <button onClick={() => navigate('/login')} className='bg-[#f7952c] text-black font-bold px-8 py-3 rounded-full hidden md:block'>Create account</button>
         }
         <img onClick={() => setShowMenu(true)} className='w-6 md:hidden' src={assets.menu_icon} alt="" />
 

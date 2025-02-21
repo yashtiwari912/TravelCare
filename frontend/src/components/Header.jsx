@@ -18,7 +18,7 @@ const Header = () => {
                     <p>Seamlessly connect travel and healthcare, <br className='hidden sm:block' /> ensuring a safe and worry-free journey with easy access to medical support wherever you go.</p>
                 </div>
                 <div className='flex justify-center items-center space-x-4'>
-                    <button onClick={() => navigate('/login')} className='bg-[#f7952c] text-black font-bold px-8 py-3 rounded-full hidden md:block'>Create account</button>
+                    <button onClick={() => navigate('/diseases-itenary')} className='bg-[#F7952C] text-black px-8 py-3 rounded-full font-bold hidden md:block'>START PLANNING</button>
                     <button onClick={() => navigate('/flowchart')} className='bg-[#f7952c] text-black font-bold px-8 py-3 rounded-full hidden md:block'>FLOWCHART</button>
 
                 </div>
