@@ -131,6 +131,7 @@ export const diseaseTravelPlacesData = [
 
 
 
+
 // export const diseases = [
 //     {
 //       name: "Common Cold",
