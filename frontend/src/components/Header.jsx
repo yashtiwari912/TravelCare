@@ -1,7 +1,10 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const Header = () => {
+
+    const navigate = useNavigate()
     return (
         <div className='flex flex-col md:flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 '>
 
@@ -15,9 +18,9 @@ const Header = () => {
                     <p>Seamlessly connect travel and healthcare, <br className='hidden sm:block' /> ensuring a safe and worry-free journey with easy access to medical support wherever you go.</p>
                 </div>
                 <div className='flex justify-center items-center space-x-4'>
-                    <a href='#speciality' className=' flex items-center gap-2 bg-[#f7952c] px-8 py-3 rounded-full text-black font-bold text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
-                        FLOW CHART <img className='w-3' src={assets.arrow_icon} alt="" />
-                    </a>
+                    <button onClick={() => navigate('/login')} className='bg-[#f7952c] text-black font-bold px-8 py-3 rounded-full hidden md:block'>Create account</button>
+                    <button onClick={() => navigate('/flowchart')} className='bg-[#f7952c] text-black font-bold px-8 py-3 rounded-full hidden md:block'>FLOWCHART</button>
+
                 </div>
 
 
