@@ -59,7 +59,7 @@ export default function LocationSearchHome() {
 
     return (
         <div className="flex flex-col items-center">
-            <h1 className="text-3xl font-medium">Hospitals Nearby</h1>
+            <h1 className="text-3xl font-medium">Doctors Nearby</h1>
             {/* Search Bar */}
             <div className="flex items-center bg-white shadow-lg rounded-full p-4 w-full max-w-xl">
                 <div className="flex items-center w-full">

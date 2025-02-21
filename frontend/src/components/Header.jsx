@@ -14,9 +14,13 @@ const Header = () => {
                     <img className='w-28' src={assets.group_profiles} alt="" />
                     <p>Seamlessly connect travel and healthcare, <br className='hidden sm:block' /> ensuring a safe and worry-free journey with easy access to medical support wherever you go.</p>
                 </div>
-                <a href='#speciality' className='flex items-center gap-2 bg-[#f7952c] px-8 py-3 rounded-full text-black font-bold text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
-                    Book appointment <img className='w-3' src={assets.arrow_icon} alt="" />
-                </a>
+                <div className='flex justify-center items-center space-x-4'>
+                    <a href='#speciality' className=' flex items-center gap-2 bg-[#f7952c] px-8 py-3 rounded-full text-black font-bold text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
+                        FLOW CHART <img className='w-3' src={assets.arrow_icon} alt="" />
+                    </a>
+                </div>
+
+
             </div>
 
             {/* --------- Header Right --------- */}

@@ -39,6 +39,7 @@ import Pediatricians from './Pediatricians.svg'
 import Road from './Road.png'
 import Lottie from './Car.lottie'
 import RoadVideo from './video.mp4'
+import flowchart from './TravelCare_flowchart.pdf'
 
 export const assets = {
     appointment_img,
@@ -60,7 +61,8 @@ export const assets = {
     razorpay_logo,
     Road,
     Lottie,
-    RoadVideo
+    RoadVideo,
+    flowchart
 }
 
 export const specialityData = [

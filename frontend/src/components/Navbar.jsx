@@ -33,7 +33,7 @@ const Navbar = () => {
           <hr className='border-none outline-none h-0.5 bg-[#F7952C] w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/diseases-itenary' >
-          <li className='py-1'>DISEASE ITINERARY</li>
+          <li className='py-1'>START PLANNING</li>
           <hr className='border-none outline-none h-0.5 bg-[#F7952C] w-3/5 m-auto hidden' />
         </NavLink>
         <NavLink to='/about' >
@@ -73,6 +73,8 @@ const Navbar = () => {
           <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
             <NavLink onClick={() => setShowMenu(false)} to='/'><p className='px-4 py-2 rounded full inline-block'>HOME</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/doctors' ><p className='px-4 py-2 rounded full inline-block'>ALL DOCTORS</p></NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to='/hospital-list' ><p className='px-4 py-2 rounded full inline-block'>HOSPITALS</p></NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to='/diseases-itenary' ><p className='px-4 py-2 rounded full inline-block'>START PLANNING</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/about' ><p className='px-4 py-2 rounded full inline-block'>ABOUT</p></NavLink>
             <NavLink onClick={() => setShowMenu(false)} to='/contact' ><p className='px-4 py-2 rounded full inline-block'>CONTACT</p></NavLink>
           </ul>
